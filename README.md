@@ -18,6 +18,8 @@ There were 5 different types of coupons:
 
 The assignment was to produce a brief report highlighting the scenarios and characteristics of the drivers who accept the coupon for _one of the coupon types_. I chose the _Carry out & Take away_ coupon type because it had the highest acceptance rate compared to the other coupon types at 73%.
 
+_**Note:** In the Jupyter Notebook, I'm using Plotly instead of Seaborn for visualization, but Plotly doesn't render in Github. To mitigate this, I have called both `fig.show()` for the interactive plot and `fig.show('png')` for the static plot (which will show in Github). Furthermore, all Plotly plots are saved in the images directory._
+
 ![coupon types](./images/coupon_types.png)
 
 ## The Problem for Carry out & Take away Coupons
@@ -25,7 +27,7 @@ The assignment was to produce a brief report highlighting the scenarios and char
 The problem is to find the scenarios and driver characteristics that have the highest 
 ## The Findings
 
-Here is a summary of the findings. More extensive visualizations are in the [Jupyter Notebook](./prompt.ipynb).
+Here is a summary of the findings. More extensive analysis and visualizations are in the Jupyter Notebook.
 
 ### Highest Acceptance Rates
 The highest acceptance rates come from 15 values across 5 categories:
