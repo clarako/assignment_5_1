@@ -2,11 +2,12 @@
 
 This repo is my submission for Assignment 5.1 for UC Berkeley's [Professional Certificate in Machine Learning and Artificial Intelligence](https://em-executive.berkeley.edu/professional-certificate-machine-learning-artificial-intelligence) program.
 
-Here is the link to the [Jupyter Notebook](assignment_5_1/prompt.ipynb) with the analysis for this dataset.
+#### Jupyter Notebook
+Here is the link to the [Jupyter Notebook](./prompt.ipynb) with the analysis for this dataset.
 
 ## The Assignment
 
-We were given a dataset from the UCI Machine Learning repository that was collected via a survey on Amazon Mechanical Turk. The survey describes different driving scenarios including the destination, current time, weather, passenger, etc., as well as different driver characteristics, and asks if the person would accept the coupon presented ot them.
+We were given a dataset from the UCI Machine Learning repository that was collected via a survey on Amazon Mechanical Turk. The survey describes different driving scenarios including the destination, current time, weather, passenger, etc., as well as different driver characteristics, and asks if the person would accept the coupon presented to them.
 
 There were 5 different types of coupons:
 - Bar
@@ -19,9 +20,12 @@ The assignment was to produce a brief report highlighting the scenarios and char
 
 ![coupon types](./images/coupon_types.png)
 
+## The Problem for Carry out & Take away Coupons
+
+The problem is to find the scenarios and driver characteristics that have the highest 
 ## The Findings
 
-Here is a summary of the findings. More extensive visualizations are in the [Jupyter Notebook](assignment_5_1/prompt.ipynb).
+Here is a summary of the findings. More extensive visualizations are in the [Jupyter Notebook](./prompt.ipynb).
 
 ### Highest Acceptance Rates
 The highest acceptance rates come from 15 values across 5 categories:
@@ -46,7 +50,7 @@ The highest acceptance rates come from 15 values across 5 categories:
 
 ### Lowest Acceptance Rates
 
-On the other hand, the lowest acceptance rates are much more spread out across categories.
+On the other hand, the lowest acceptance rates are much more spread out across categories. For the lowest acceptance rates, there are 16 values across 11 categories.
 The following scenarios and characteristics result in the lowest acceptance rates:
 - occupation
   - Life Physical Social Science
@@ -55,7 +59,7 @@ The following scenarios and characteristics result in the lowest acceptance rate
   - Architecture & Engineering
   - Arts Design Entertainment Sports & Media
   - Student
-- Visit Frequencies
+- visit frequencies
   - Bar - people who go to bars more than 8 times a month
   - Coffee House - people who go to Coffee House more than 8 times a month
   - Carry Away - people who carry away less than once a month (this tells us that they are not interested in Carry Away)
@@ -69,4 +73,12 @@ The following scenarios and characteristics result in the lowest acceptance rate
 
 ![lowest acceptance rates](./images/lowest_acceptance_rates.png)
 
-### 
+### Next Steps and Recommendations
+For the next steps, I recommend to do similar analyses for the other coupon types and then compare acceptance rates across coupon types, categories, and their values.
+Doing so would enable the different types of establishments associated with the various coupon types to understand the best way to target coupons campaigns. The acceptance rate for a certain audience can also help with pricing of the service, informing both supply and demand of a potential digital coupon delivery service.
+However, to properly choose the correct audience to show coupons to, I recommend looking at both the size of the audience in addition to the acceptance rate that we have explored above.
+Furthermore, I hypothesize that rainy and cold weather, early time of day (7AM), people heading to work, and short-term expirations (2-hour) would all result in low acceptance rates across all coupon types, and can therefore be avoided with the coupon service.
+In terms of weather, locality should be considered because what is cold in one location may not be cold for another location.
+
+
+
