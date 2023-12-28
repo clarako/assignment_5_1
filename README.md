@@ -48,7 +48,7 @@ The highest acceptance rates come from 15 values across 5 categories:
 
 ![highest acceptance rates_plot](./images/highest_acceptance_rates_plot.png)
 
-**Highest Acceptance Rates**
+#### Highest Acceptance Rates
 ![highest acceptance rates](./images/highest_acceptance_rates.png)
 
 ### Lowest Acceptance Rates
@@ -74,7 +74,7 @@ The following scenarios and characteristics result in the lowest acceptance rate
 - 2-hour expiration - shorter expiration (instead of 1-day) is not conducive to acceptance.
 ![lowest acceptance rates_plot](./images/lowest_acceptance_rates_plot.png)
 
-**Lowest Acceptance Rates**
+#### Lowest Acceptance Rates
 ![lowest acceptance rates](./images/lowest_acceptance_rates.png)
 
 ### Next Steps and Recommendations
